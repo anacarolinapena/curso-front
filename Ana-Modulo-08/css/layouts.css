@@ -1,0 +1,159 @@
+/* Arquivo css geral com estilos dos elemntos de todas as pag */
+
+
+* {
+box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+.Titulo-quest-1{
+	font-family: 'Roboto', sans-serif;
+	color:rgb(60, 60, 60);
+	font-size: 1.6rem; /* equivale a 16px */
+}
+
+.Titulo-quest-2{
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgb(60, 60, 60);
+	font-size: 1.6rem;
+}
+
+.div-1{
+	background: none;
+	border: 0;
+	margin: 1rem 1rem; 
+}
+
+.div-1-conteudo{
+	display: block;
+	width: 100%;
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+}
+
+.div-2{
+	background: none;
+	border: 0;
+	margin: 1rem 1rem;
+}
+
+.div-2-conteudo{
+	display: block;
+	width: 100%;
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+}
+.div-3{
+	background: none;
+	border: 0;
+	margin: 1rem 1rem;
+}
+
+.div-3-conteudo{
+	display: block;
+	width: 100%;
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+}
+.div-4-inicio{
+	background: none;
+}
+
+.div-4{
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+}
+
+.div-4-conteudo{
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(60, 60, 60);
+}
+
+.div-5-inicio{
+	background: none;
+}
+
+.div-5{
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+}
+
+.div-5-conteudo{
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(60, 60, 60);
+}
+
+
+.div-6{
+	background: none;
+	border: 0;
+	margin: 1rem 1rem;
+}
+
+.div-6-conteudo{
+	display: block;
+	width: 100%;
+	margin-bottom: 1px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66f;
+
+}
+
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	
+}
+
+input {
+	background: #ffffff;
+	padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+	 width: 100%;
+	   height: auto;
+ }
+}
+
+/* 
+	top(cima)
+	bottom(baixo)
+	left(esquerda)
+	right(direita)
+*/

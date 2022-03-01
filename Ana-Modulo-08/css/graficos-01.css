@@ -1,0 +1,100 @@
+div{
+    margin: 40px auto;
+}
+
+
+/*cria um circulo na img*/
+#graficos-01 {
+    background-color: rgb(74, 92, 71);
+    width: 40%;
+    height:10%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#graficos-01 img {
+    width: 100%;
+}
+
+
+/*Filtros */
+#graficos-01{
+    filter: drop-shadow(8px 8px 10px #333);
+}
+
+
+.filtro {
+    filter: grayscale(100%); /*escala de cinza*/
+    filter: blur(5px); /*ao passar o mouse fica desfocado*/
+    filter: brightness(100%); /*brilho 100% = normal*/
+    /*filter: invert(100%); --> inverter as cores da img*/
+    /*filter: opacity(50%); --> reduz a opacidade*/
+    /*combinar filtros serandos por espaço*/
+
+}
+
+/*.filtro:hover { 
+    filter: grayscale(0%);
+}   ao passar o mouse fica na cor original*/
+  
+
+.coluna1{
+	display: block;
+	width: 33.3%;/*numero para dividir 3 coluna*/
+	float: left;
+	padding: 5px;
+	background: rgb(165, 160, 189);
+	border: 1px solid rgb(66, 58, 58);
+}
+
+iframe{
+	width: 100%;
+	height: 60%;
+}
+
+.coluna-100w{
+	width: 100%;
+	height: 80%;
+}
+
+/* mobile first - ele vai atender as medidas da tela daqui */
+
+/*tablet*/
+
+@media (min-width: 769px){ /*altera a cor de fundo aparti de 769px*/
+    body{
+        background-color: rgb(214, 126, 44);
+        color:rgb(21, 21, 22)
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: rgb(163, 214, 206);
+        color:rgb(21, 21, 22)
+    }
+    
+    nav{
+    width: 40%;
+    } 
+    article{
+        width: 70%;
+    }
+
+    .coluna{
+        width: 50%;
+    min-width: unset;
+    }   
+}
+
+
+
+@media(max-width: 425px){
+    nav,
+    article,
+    .coluna{
+    width: 100%;
+    min-width: 320px;
+    }   
+}
+
